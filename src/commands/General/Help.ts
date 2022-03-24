@@ -50,7 +50,7 @@ export default class Command extends BaseCommand {
 				\n\n*╚『•My Cmd List•』╝*.\n\n`;
 			const keys = Object.keys(categories);
 			for (const key of keys)
-				text += `*╚━❰😻🚀${this.client.util.capitalize(
+				text += `*----❰😻🚀${this.client.util.capitalize(
 					key
 				)} ❱━╝*\n❐ \`\`\`${categories[key]
 					.map((command) => command.config?.command)
@@ -63,10 +63,10 @@ export default class Command extends BaseCommand {
 					quoted: M.WAMessage,
 					mimetype: Mimetype.gif,
 			caption: `${text}
-─❅┈[ 𝐡𝐢𝐭𝐦𝐚𝐧47 𝑩𝒐𝒕 ]┈❅───
+─❅┈[ DHB 𝑩𝒐𝒕 ]┈❅───
 ┌────────────┈❅
-│   🧨 𝐡𝐢𝐭𝐦𝐚𝐧47
-│   ©️ 🚀🥂😻:𝐁𝐢𝐭𝐜𝐡 𝐂𝐥𝐮𝐛😻🚀🥵
+│   🧨 DHB
+│   ©️ 🚀🥂😻:D𝐡𝐁 𝐛ots😻🚀🥵
 └────────────┈⁂
 ❅┈[𝐇𝐚𝐯𝐞 𝐆𝐫𝐞𝐚𝐭 𝐃𝐚𝐲]┈❅ 
 ❤ *Note: Use ${this.client.config.prefix}help <command_name> to view the command info*`,
